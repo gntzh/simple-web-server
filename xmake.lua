@@ -1,3 +1,5 @@
+set_languages("c11", "c++14")
+
 add_rules("mode.debug", "mode.release")
 
 target("simple-webserver")
@@ -72,4 +74,3 @@ target("simple-webserver")
 --
 -- @endcode
 --
-

@@ -1,0 +1,6 @@
+[
+{
+  "directory": "/home/grant/projects/simple-webserver",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++14", "-o", "build/.objs/simple-webserver/linux/x86_64/debug/src/main.cpp.o", "src/main.cpp"],
+  "file": "src/main.cpp"
+}]
