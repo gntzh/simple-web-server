@@ -1,8 +1,6 @@
-#include <algorithm>
 #include <chrono>
 #include <iostream>
 #include <mutex>
-#include <ostream>
 #include <thread>
 #include <vector>
 
@@ -23,8 +21,8 @@ void foo(int num) {
 int main(int argc, char **argv) {
   const int thread_num = 5;
   std::vector<std::thread> threads;
-
   threads.reserve(thread_num);
+
   for (int i = 0; i < thread_num; ++i) {
     threads.emplace_back(foo, i);
   }
