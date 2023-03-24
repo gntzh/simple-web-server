@@ -69,7 +69,7 @@ int main(int argc, char **argv) {
 
     std::string data{"Hello\b"};
     // 给客户端发送数据
-    write(socket_fd, data.c_str(), data.size());
+    write(conn_socket_fd, data.c_str(), data.size());
   }
 
   // 关闭文件描述符
